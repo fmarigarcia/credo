@@ -150,7 +150,7 @@ defmodule Credo.Mixfile do
     [
       {:file_system, "~> 0.2 or ~> 1.0"},
       {:bunt, "~> 0.2.1 or ~> 1.0"},
-      {:jason, "~> 1.0"},
+      {:jason, "~> 1.1"},
 
       # nimble_parsec >= 1.4 requires Elixir 1.12
       # we want to keep Elixir 1.11 compatibility for one more release
